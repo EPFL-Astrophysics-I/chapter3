@@ -1,0 +1,49 @@
+.unity-app {
+  color: rgb(150, 150, 150);
+  padding: 10px;
+  margin-bottom: 6rem;
+  letter-spacing: 0.5px;
+  /* background-color: rgb(255, 204, 184); */
+}
+
+.unity-app p {
+  text-align: left;
+  margin-top: -8px;
+  /* background-color: lightsalmon; */
+}
+
+.unity-app h3 {
+  text-transform: capitalize;
+  /* background-color: lightseagreen; */
+}
+
+.unity-app span {
+  background-color: lime;
+}
+
+.unity-player {
+  border: 2px solid rgb(233, 233, 233);
+  /* background-color: magenta; */
+  /* padding: 10px; */
+}
+
+.unity-player-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* background-color: lime; */
+}
+
+.unity-player-button button {
+  width: 100%;
+  height: 100%;
+  border-width: 0px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(236, 236, 236);
+}
+
+.unity-player-button button:hover {
+  opacity: 80%;
+}

@@ -1,0 +1,15 @@
+{
+"companyName": "austinpeel",
+"productName": "app-template",
+"productVersion": "0.1",
+"dataUrl": "UnityApp.data.unityweb",
+"wasmCodeUrl": "UnityApp.wasm.code.unityweb",
+"wasmFrameworkUrl": "UnityApp.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.32f1"
+}
