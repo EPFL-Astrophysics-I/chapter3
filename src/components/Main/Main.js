@@ -4,8 +4,8 @@ import './Main.css';
 const app1 = {
   index: 1,
   name: 'Virial Theorem',
-  json: 'UnityApp/Build/UnityApp.json',
-  unityLoader: 'UnityApp/Build/UnityLoader.js',
+  json: '',
+  unityLoader: '',
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 };
@@ -13,8 +13,8 @@ const app1 = {
 const app2 = {
   index: 2,
   name: 'Mass of a globular cluster',
-  json: 'UnityApp/Build/UnityApp.json',
-  unityLoader: 'UnityApp/Build/UnityLoader.js',
+  json: '',
+  unityLoader: '',
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 };
@@ -22,8 +22,8 @@ const app2 = {
 const app3 = {
   index: 3,
   name: 'N-body Accuracy',
-  json: 'UnityApp/Build/UnityApp.json',
-  unityLoader: 'UnityApp/Build/UnityLoader.js',
+  json: '',
+  unityLoader: '',
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 };

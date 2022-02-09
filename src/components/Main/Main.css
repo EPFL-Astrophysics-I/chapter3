@@ -1,7 +1,7 @@
 .content {
   display: flex;
   flex-direction: column;
-  margin: 0px 60px; /* always transparent */
+  margin: 0px; /* always transparent */
   padding: 5px;
   /* background-color: rgba(136, 221, 255, 0.2); */
 }
