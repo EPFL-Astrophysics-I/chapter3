@@ -28,6 +28,7 @@
 
 .unity-player {
   border: 2px solid rgb(233, 233, 233);
+  max-height: 665px;
   /* padding: 10px; */
   /* background-color: magenta; */
 }
