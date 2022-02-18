@@ -2,7 +2,7 @@ import React from 'react';
 import Unity, { UnityContent } from 'react-unity-webgl';
 import './UnityApp.css';
 import defaultLoaderImage from './loader-default.png';
-import workInProgressImage from './wip-default.png';
+import comingSoonImage from './coming-soon.png';
 
 class UnityApp extends React.Component {
   constructor(props) {
@@ -12,10 +12,10 @@ class UnityApp extends React.Component {
       id: 'unity-app-' + this.props.index,
       progress: 0,
       isLoading: false,
-      canLoad: false,
+      startLoading: false,
       image:
         this.props.json === ''
-          ? workInProgressImage
+          ? comingSoonImage
           : this.props.image
           ? this.props.image
           : defaultLoaderImage,
@@ -84,6 +84,13 @@ class UnityApp extends React.Component {
 
     return (
       <div className='unity-app'>
+        {this.state.isLoading ? (
+          <p id='loading'>
+            Loading... {(100 * this.state.progress).toFixed()} %
+          </p>
+        ) : (
+          <p id='not-loading'></p>
+        )}
         {this.props.json === '' ? placeholder : unityPlayer}
         <h3>{this.props.name}</h3>
         <p>{this.props.description}</p>
