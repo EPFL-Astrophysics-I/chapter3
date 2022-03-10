@@ -1,13 +1,17 @@
 import UnityApp from '../UnityApp/UnityApp';
 import './Main.css';
+import image1 from './img-load-virial-theorem.png';
 
 const app1 = {
   index: 1,
   name: 'Virial Theorem',
-  json: '',
-  unityLoader: '',
+  json: 'VirialTheorem/Build/VirialTheorem.json',
+  unityLoader: 'VirialTheorem/Build/UnityLoader.js',
   description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    'The virial theorem is a relation between the time-averaged kinetic energy and the time-averaged potential energy of a many-body system. ' +
+    'It is very useful in astrophysics, as it allows us to estimate the mass of stable, gravitationally interacting objects like ' +
+    'globular clusters of stars and, on even larger scales, clusters of galaxies.',
+  image: image1,
 };
 
 const app2 = {
