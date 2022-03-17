@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/chapter3/static/css/main.da166c74.css",
-    "main.js": "/chapter3/static/js/main.3f646f13.js",
+    "main.css": "/chapter3/static/css/main.d210ff74.css",
+    "main.js": "/chapter3/static/js/main.67b01e52.js",
     "static/js/787.ee3152bf.chunk.js": "/chapter3/static/js/787.ee3152bf.chunk.js",
     "static/media/img-load-virial-theorem.png": "/chapter3/static/media/img-load-virial-theorem.935e2151e918a9bf6ac0.png",
     "static/media/loader-default.png": "/chapter3/static/media/loader-default.28bb9044d05db146b4fb.png",
     "static/media/wave-background.png": "/chapter3/static/media/wave-background.11af55b25a30a1616613.png",
     "index.html": "/chapter3/index.html",
-    "main.da166c74.css.map": "/chapter3/static/css/main.da166c74.css.map",
-    "main.3f646f13.js.map": "/chapter3/static/js/main.3f646f13.js.map",
+    "main.d210ff74.css.map": "/chapter3/static/css/main.d210ff74.css.map",
+    "main.67b01e52.js.map": "/chapter3/static/js/main.67b01e52.js.map",
     "787.ee3152bf.chunk.js.map": "/chapter3/static/js/787.ee3152bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da166c74.css",
-    "static/js/main.3f646f13.js"
+    "static/css/main.d210ff74.css",
+    "static/js/main.67b01e52.js"
   ]
 }
