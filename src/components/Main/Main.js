@@ -12,6 +12,7 @@ const app1 = {
     'It is very useful in astrophysics, as it allows us to estimate the mass of stable, gravitationally interacting objects like ' +
     'globular clusters of stars and, on even larger scales, clusters of galaxies.',
   image: image1,
+  github: 'https://github.com/EPFL-Astrophysics-I/virial-theorem.git',
 };
 
 const app2 = {

@@ -3,6 +3,8 @@ import Unity, { UnityContent } from 'react-unity-webgl';
 import './UnityApp.css';
 import defaultLoaderImage from './loader-default.png';
 import comingSoonImage from './coming-soon.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 class UnityApp extends React.Component {
   constructor(props) {
@@ -92,8 +94,17 @@ class UnityApp extends React.Component {
           <p id='not-loading'></p>
         )}
         {this.props.json === '' ? placeholder : unityPlayer}
-        <h3>{this.props.name}</h3>
-        <p>{this.props.description}</p>
+        <div className='unity-app-description'>
+          <h3>{this.props.name}</h3>
+          {this.props.github ? (
+            <a href={this.props.github}>
+              <FontAwesomeIcon icon={faGithub} color='#969696' size='lg' />
+            </a>
+          ) : (
+            <p></p>
+          )}
+          <p>{this.props.description}</p>
+        </div>
       </div>
     );
   }
